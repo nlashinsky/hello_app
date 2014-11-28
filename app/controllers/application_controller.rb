@@ -10,4 +10,6 @@ class ApplicationController < ActionController::Base
 
  def hello_again
  	render text: "yes, this more rails"
+ end
+ 
 end
