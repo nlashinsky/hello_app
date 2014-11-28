@@ -7,4 +7,7 @@ class ApplicationController < ActionController::Base
  def hello
 	render text: "hello, Mak. love, Rufus on Rails"
  end
+
+ def hello_again
+ 	render text: "yes, this more rails"
 end
