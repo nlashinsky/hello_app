@@ -54,6 +54,10 @@ gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
 
+#inserting due to http://stackoverflow.com/questions/27139007/cant-migrate-database-after-scaffold-section-2-2-ruby-on-rails-tutorial-michae
+
+gem 'arel',                 '6.0.0.beta2'
+
 group :development, :test do
 	gem 'sqlite3',     '1.3.9'
   	gem 'byebug',      '3.4.0'
